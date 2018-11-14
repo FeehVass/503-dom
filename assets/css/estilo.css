@@ -1,0 +1,45 @@
+.quadrado{
+    background-color: rgb(238, 27, 80);
+    height: 300px;
+    margin: 20px;
+    transition: 1s;
+    width: 300px;
+}
+
+.rodando{
+    transform: rotateZ(180deg);
+}
+
+header{
+    background-color: blue;
+    height: 50px;   
+    margin-bottom: 10px; 
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+}
+
+nav a{
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+nav.visivel{
+    transform: translateY(0);
+}
